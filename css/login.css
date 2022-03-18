@@ -1,0 +1,170 @@
+
+
+@font-face {
+    font-family: 'OpenSans';
+    src:  local("☺"),
+        url('../fonts/OpenSans-Bold-webfont.eot') format('embedded-opentype'),
+        url('../fonts/OpenSans-Bold-webfont.woff') format('woff'),
+        url('../fonts/OpenSans-Bold-webfont.ttf') format('truetype') ;
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src:  local("☺"),
+        url('../fonts/OpenSans-Regular-webfont.eot') format('embedded-opentype'),
+        url('../fonts/OpenSans-Regular-webfont.woff') format('woff'),
+        url('../fonts/OpenSans-Regular-webfont.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+
+}
+
+body{
+    font-family: 'OpenSans';
+    font-size: 1em;
+    margin: 0 ;
+    padding: 0;
+    scroll-behavior: smooth; 
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.wrapper{
+    padding: 0 20px;
+    width: 100%;
+}
+
+a{
+
+    margin: 0;
+    padding: 0;
+    text-decoration: none; 
+
+}
+
+input[type="text"]:focus {
+    border: none; 
+    border:1px solid blue;
+    outline: 0; 
+}
+
+.form__input{
+    border: 1px solid #9d9d9d;
+    border-radius: 4px;
+    font-size: 1em;
+    height: 40px;
+    margin-bottom: 14px;
+    padding-left: 10px;
+    width: 100%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+}
+
+.form__input:focus{
+    outline:0px;
+}
+
+.form__required{
+    color:#436ede;
+}
+
+.form__label{
+    display: block;
+    color:#9d9d9d;
+    font-weight: bold;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+.form__label__required{
+    color:#9d9d9d;
+}
+
+.form__error{
+    padding-top: 10px;
+    display: block;
+    color: red;
+}
+
+
+.registry__title{
+    text-align: center;
+}
+
+.registry__description{
+    text-align: center;
+}
+
+.registry__success {
+    margin: 0 auto 36px;
+    width: 88%;
+}
+
+.registry__container {
+    box-shadow: 0 0 6px 0 rgba(0,0,0,.25);
+    padding: 15px;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    margin: 0 10px; 
+    max-width: 500px;
+}
+
+.registry__label{
+    color:#063f6c;
+    font-weight: bold;
+}
+
+.registry__button__registry,
+.registry__button__login,
+.registry__cta{
+    background-color: #436ede;
+    border-radius: 4px;
+    color: #fff;
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 9px 2px;
+    width: 100%;
+}
+
+.registry__button__registry{
+    background-color: #fff;
+    border:2px solid #436ede;
+    color:#436ede;
+}
+
+.registry__button__registry,
+.registry__button__login{
+    margin-top: 20px;
+}
+
+
+.registry__account__text{
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+
+    .registry__container{
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        padding: 25px;
+    }
+
+    .registry__success{
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+}
+
+
+
